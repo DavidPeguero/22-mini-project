@@ -5,13 +5,14 @@
 
 
 header{
-    border-bottom: 10px #D8A48A solid;
+    border-bottom: 10px #DDAF94 solid;
 }
 nav{
     position: relative;
-    background-color: #255649;
+    background-color: #276150;
     width: 100%;
     height: 30px;
+    color: white;
 }
 
 nav ul{
@@ -29,22 +30,30 @@ nav ul li{
 main{
     padding: 10px;
     text-align: center;
-    border-bottom: 5px #D8A48A solid;
+    border-bottom: 5px #DDAF94 solid;
 }
 
 main *{
     margin-bottom: 10px;
 }
 
-footer{
-    background-color: #E5C6B9;
+form{
+    background-color: #E8CEBF;
     text-align: center;
     padding: 20px 0;
 }
 
-footer section{
+form section{
     margin: 1% 20%;
     padding: 3%;
-    border: #D8A48A 5px solid;
+    border: #DDAF94 5px solid;
     border-radius: 10px;
+}
+
+footer{
+    background-color: #276150;
+    text-align: center;
+    color: white;
+    height: 40px;
+    padding-top: 15px;
 }
