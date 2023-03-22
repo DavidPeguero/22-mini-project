@@ -50,6 +50,13 @@ main *{
     border-radius: 10px;
 }
 
+
+button{
+    background-color: #473F40;
+    color: white;
+    padding: 10px 20px;
+}
+
 footer{
     background-color: #276150;
     text-align: center;
@@ -57,3 +64,4 @@ footer{
     height: 40px;
     padding-top: 15px;
 }
+
