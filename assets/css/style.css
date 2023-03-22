@@ -37,13 +37,13 @@ main *{
     margin-bottom: 10px;
 }
 
-form{
+.form-container{
     background-color: #E8CEBF;
     text-align: center;
     padding: 20px 0;
 }
 
-form section{
+.form-container form{
     margin: 1% 20%;
     padding: 3%;
     border: #DDAF94 5px solid;
