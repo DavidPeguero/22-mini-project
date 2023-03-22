@@ -9,7 +9,7 @@
 </head>
 <body>
     <header>
-        <nav>
+        <nav class="text-right">
             <ul>
                 <li>GitHub</li>
                 <li>Portfolio</li>
@@ -17,19 +17,26 @@
             </ul>
         </nav>
     </header>
-    <main>
+    <main class="text-center">
         <h1>My New Website</h1>
-        <img src="assets/images/image-1.png" alt="coming soon">
-        <p>Lorem impsum dolor, sit amet consectetur adipsicing elit.</p>
+        <figure>
+            <img src="assets/images/image-1.png" alt="coming soon">
+            <figcaption>Lorem imfigcaptionsum dolor, sit amet consectetur adipsicing elit.</p>
+        </figure>
     </main>
-    <section class="form-container">
+    <section class="form-container text-center">
         <h2>Contact Me</h2>
         <form>
-            <label>Name: </label><input title="name" type="text" size="50" placeholder="John Doe"/>
-            <br><br>
-            <label type="text">Email: </label><input title="email" type="email" size="50" placeholder="example@email.com"/>
-            <br></br>
-            <button type="button">SEND</button>
+            <!-- Could or should be ul -->
+            <ul>
+                <li>
+                    <label for="name">Name: </label><input name="name" type="text" size="40" placeholder="John Doe"/>  
+                </li>
+                <li>
+                    <label for="email">Email: </label><input name="email" type="email" size="40" placeholder="example@email.com"/>    
+                </li>
+            </ul>
+            <button type="submit">SEND</button>
         </form>
     </section>
     <footer>
